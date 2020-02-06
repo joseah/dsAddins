@@ -5,7 +5,7 @@ text  <-
 
 # title:
 # author: Jose Alquicira Hernandez
-# date: 2019//
+# date: 2020//
 # description:
 
 # Import libraries --------------------------------------------------------
@@ -20,7 +20,7 @@ library("Seurat")
 
 # Set output --------------------------------------------------------------
 
-output <- setOutput("", "")
+output <- set_output("2020--", "")
 
 # Read data ---------------------------------------------------------------
 
@@ -39,7 +39,7 @@ input <-  here(path, filename)
 
 # Session info ------------------------------------------------------------
 
-printSession()
+print_session()
 
 '
 rstudioapi::insertText(text = text)
