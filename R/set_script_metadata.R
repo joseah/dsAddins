@@ -1,7 +1,7 @@
 set_analysis <- function(){
 
 text  <-
-'# Script information ------------------------------------------------------
+paste0('# Script information ------------------------------------------------------
 
 # title:
 # author: Jose Alquicira Hernandez
@@ -13,14 +13,14 @@ text  <-
 # Primary
 library("tidyverse")
 library("here")
-library("dslib")
+library("dsLib")
 
 # Secondary
 library("Seurat")
 
 # Set output --------------------------------------------------------------
 
-output <- set_output("2020--", "")
+output <- set_output("', Sys.Date(), '", "")
 
 # Read data ---------------------------------------------------------------
 
@@ -41,7 +41,7 @@ input <-  here(path, filename)
 
 print_session()
 
-'
+')
 rstudioapi::insertText(text = text)
 
 }
