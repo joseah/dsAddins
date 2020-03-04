@@ -5,7 +5,7 @@ paste0('# Script information ---------------------------------------------------
 
 # title:
 # author: Jose Alquicira Hernandez
-# date: 2020//
+# date: ', Sys.Date(),'
 # description:
 
 # Import libraries --------------------------------------------------------
