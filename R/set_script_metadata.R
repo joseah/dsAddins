@@ -39,7 +39,7 @@ input <-  here(path, filename)
 
 # Session info ------------------------------------------------------------
 
-print_session()
+print_session(here(output))
 
 ')
 rstudioapi::insertText(text = text)
