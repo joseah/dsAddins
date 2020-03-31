@@ -6,13 +6,12 @@ paste0('# Script information ---------------------------------------------------
 # title:
 # author: Jose Alquicira Hernandez
 # date: ', Sys.Date(),'
-# description:
+# description: None
 
 # Import libraries --------------------------------------------------------
 
 # Primary
 library("tidyverse")
-library("here")
 library("dsLib")
 
 # Secondary
@@ -25,9 +24,8 @@ output <- set_output("', Sys.Date(), '", "")
 # Read data ---------------------------------------------------------------
 
 # Input
-path <- file.path("results", "")
-filename <- ""
-input <-  here(path, filename)
+filename <- here("results", "", "")
+data <- readRDS(filename)
 
 # Read file
 
