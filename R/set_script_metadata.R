@@ -23,8 +23,7 @@ output <- set_output("', Sys.Date(), '", "")
 
 # Read data ---------------------------------------------------------------
 
-filename <- here("results", "", "")
-data <- readRDS(filename)
+data <- readRDS(here("results/"))
 
 
 # Save data ---------------------------------------------------------------

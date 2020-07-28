@@ -2,3 +2,8 @@ Name: Set up analysis
 Description: Adds metadata to R Script
 Binding: set_analysis
 Interactive: false
+
+Name: Insert `%in%` operator
+Description: Shortcut for `%in%` operator
+Binding: in_op
+Interactive: false
