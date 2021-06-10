@@ -20,7 +20,8 @@ paste0('#   ____________________________________________________________________
 #   Import libraries                                                        ####
 
 # Primary
-library("tidyverse")
+library("data.table")
+library("purrr")
 library("dsLib")
 
 # Secondary
